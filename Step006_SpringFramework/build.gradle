@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'com.furkancitilci'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    //implementation 'org.springframework:spring-beans:6.0.4'
+    implementation 'org.springframework:spring-context:6.0.4'
+}
+
